@@ -3,6 +3,52 @@
 %  MATLAB version: 9.13.0.2193358 (R2022b) Update 5
 % -------------------------------------------------------------------
                                  
+% -------------------------------------------------------------------
+% format for displaying numbers
+% format long e
+% format long g
+% help format
+% format
+%
+% relative precision
+% format long e
+% 1+1e-15
+% 1+1e-16
+%
+% absolute precision
+% realmax
+% realmin
+%
+% 1/ 0 => Inf
+% 0/0 => NaN
+% can type in small letters
+%
+% clearing variables from memory
+% clear a b
+% clear
+%
+% help
+% help who
+% doc who
+% lookfor cosine
+% lookfor 'matrix invers'
+% stop execution : ctrl-c
+%
+% precedence: operation instid() => ^ => *, / => +, - => left to right
+% 
+% semi colon at the end: no display
+% a=magic(3)
+% a=magic(3);
+%
+% multiple expressions in one line: comma or semicolon
+% a=1, b=2;c=3
+% ... at the end: continuation (might need a blank in front)
+% a= 3+3*3 ...
+% + 5*3+ ...
+% 2
+% -------------------------------------------------------------------
+
+
 
 a = 29;
 
